@@ -1,0 +1,39 @@
+img {
+  position: absolute;
+}
+
+.chou {
+  width: 100px;
+}
+
+#backimg0 {
+  left:0;
+  top:0;
+}
+
+#bt0 {
+  left:100px;
+  top:100px;
+}
+
+#bt1 {
+  left:300px;
+  top:300px;
+}
+
+#bt2 {
+  left:500px;
+  top:250px;
+}
+
+#message {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: 20px;
+  top: 20px;
+  background-color: rgb(255,255,255,0.6);
+  font-size: 30px;
+  color: red;
+  padding: 20px;
+}
