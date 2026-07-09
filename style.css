@@ -4,6 +4,7 @@ img {
 
 .chou {
   width: 100px;
+  transition: all 1s
 }
 
 #backimg0 {
@@ -26,6 +27,17 @@ img {
   top:250px;
 }
 
+.foo {
+  width: 40px;
+  left:500px;
+  top:250px;
+  transition: all 0.3s
+}
+
+#backimg1 {
+  pointer-events: none;
+}
+
 #message {
   position: absolute;
   width: 400px;
@@ -36,4 +48,5 @@ img {
   font-size: 30px;
   color: red;
   padding: 20px;
+  pointer-events: none;
 }
